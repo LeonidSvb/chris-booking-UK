@@ -1,0 +1,20 @@
+# Project-specific files
+bofe_react/
+code-review-reports/
+docs/
+tasks/
+scripts/db-api.php
+
+# SQL dumps
+*.sql
+!structure_only.sql
+
+# Logs
+*.log
+
+# Node modules
+node_modules/
+
+# Environment
+.env
+.env.local
