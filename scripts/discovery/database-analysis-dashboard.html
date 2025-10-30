@@ -35,8 +35,13 @@
             font-size: 48px;
             font-weight: 600;
             color: #000000;
-            margin-bottom: 16px;
+            margin-bottom: 12px;
             letter-spacing: -0.02em;
+            padding-bottom: 16px;
+            border-bottom: 3px solid transparent;
+            border-image: linear-gradient(90deg, #3b82f6 0%, #8b5cf6 50%, #10b981 100%);
+            border-image-slice: 1;
+            display: inline-block;
         }
 
         .subtitle {
@@ -46,17 +51,26 @@
             margin-bottom: 8px;
         }
 
+        .subtitle:first-of-type {
+            color: #3b82f6;
+            font-weight: 500;
+            margin-top: 20px;
+        }
+
         .disclaimer {
-            background: #f9fafb;
-            border-left: 3px solid #000000;
+            background: linear-gradient(135deg, #eff6ff 0%, #f0fdf4 100%);
+            border-left: 4px solid #3b82f6;
             padding: 24px 28px;
             margin-top: 48px;
             border-radius: 4px;
+            border-right: 1px solid #e0e7ff;
+            border-top: 1px solid #e0e7ff;
+            border-bottom: 1px solid #e0e7ff;
         }
 
         .disclaimer-title {
             font-weight: 600;
-            color: #000000;
+            color: #1d4ed8;
             font-size: 14px;
             text-transform: uppercase;
             letter-spacing: 0.05em;
