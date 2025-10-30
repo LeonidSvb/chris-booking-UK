@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-10-30T03:56:15.245Z",
+  "metrics": {
+    "bookings": {
+      "total": 86,
+      "paid": 49,
+      "deposit": 34,
+      "cancelled": 0,
+      "totalRevenue": 67422.86,
+      "years": {
+        "2020": 16,
+        "2021": 7,
+        "2022": 6,
+        "2023": 6,
+        "2024": 24,
+        "2025": 27
+      }
+    },
+    "vouchers": {
+      "total": 4220,
+      "totalDiscount": 290151.95,
+      "types": {
+        "percentage": 212,
+        "fixed": 3529,
+        "deposit": 477
+      }
+    },
+    "payments": {
+      "methods": {
+        "bank_transfer": 45,
+        "manual": 32,
+        "cheque": 6,
+        "paypal": 2,
+        "NULL": 1
+      },
+      "totalFees": 25.759999999999998
+    }
+  },
+  "summary": {
+    "totalBookings": 86,
+    "totalRevenue": 67422.86,
+    "averageBookingValue": 783.9867441860465,
+    "cancellationRate": 0,
+    "totalDiscounts": 290151.95,
+    "discountToRevenueRatio": 430.34654715032855,
+    "processingFees": 25.759999999999998,
+    "processingFeesPercentage": 0.038206626061249846
+  }
+}
